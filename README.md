@@ -15,10 +15,9 @@ flutter build web --release
 ## Deploy to GitHub Pages
 
 Pushing to `main` automatically builds and deploys the site with GitHub Actions.
-The workflow builds with the `/fw_es/` base path for this repository. In the
-GitHub repository settings, set **Pages → Build and deployment → Source** to
-**GitHub Actions**. Once the first workflow run succeeds, the site is available
-at <https://vikashkp9030.github.io/fw_es/>.
+The workflow enables Pages and builds with the `/fw_es/` base path for this
+repository. Once the first workflow run succeeds, the site is available at
+<https://vikashkp9030.github.io/fw_es/>.
 
 The page is static: the quote form validates in the browser only and does not
 send or store submitted information. Connect a backend only when one is
